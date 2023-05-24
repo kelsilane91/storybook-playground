@@ -22,5 +22,5 @@ type Story = StoryObj<typeof CustomCard>;
  * to learn how to use render functions.
  */
 export const Primary: Story = {
-  render: () => <CustomCard label="Card" color="warning" />,
+  render: () => <CustomCard label="Card" color="info" />,
 };
