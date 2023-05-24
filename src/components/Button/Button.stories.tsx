@@ -22,5 +22,5 @@ type Story = StoryObj<typeof CustomButton>;
  * to learn how to use render functions.
  */
 export const Primary: Story = {
-  render: () => <CustomButton label="Button" color="secondary" />,
+  render: () => <CustomButton label="Button" color="warning" />,
 };
